@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #E0F4F7;
+    background: #0f0c29;
+    background-image: linear-gradient(to bottom, rgba(36, 36, 62, 0.7) 0%, #302b63 20%, #0f0c29 100%), url("images/uranium.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    font-style: italic;
+    color: #ADA9BB;
+    text-shadow: 2px 2px 3px black;
+}
+
+h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #ADA9BB;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+
+#bday-date {
+    margin-top: 20px;
+    background: #484554;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.gift-hint {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 2px solid #33909A;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(9, 32, 63, 0.7) 0%, rgba(83, 120, 149, 0.5) 100%), url("images/gift-cover.jpg");
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #E0F4F7;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
